@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Mukeshwaran Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Mukeshwaran <span>B</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#home">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#about">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#skills">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#projects">Projects</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#contact">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#home" onclick="cancel()">Home</a>
+                <a href="#about" onclick="cancel()">About</a>
+                <a href="#skills" onclick="cancel()">Skills</a>
+                <a href="#projects" onclick="cancel()">Projects</a>
+                <a href="#contact" onclick="cancel()">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="main-container">
+            <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+                <img src="image (2).jpg" alt="Mukeshwaran's Profile">
+            </div>
+            <div class="content">
+                <h1>Hey I'm <span>Mukeshwaran B</span></h1>
+                <div class="sliding-vertical">
+                    <span>I'm a </span>
+                    <div class="sliding-words">
+                        <p>Data Analyst</p>
+                        <p>Software Engineer</p>
+                        <p>Web Developer</p> <!-- Add more roles if needed -->
+                    </div>
+                </div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">I am a passionate data analyst and software engineer with experience in building data-driven applications and solutions. My expertise includes analyzing complex datasets, creating intuitive dashboards, and developing software that enhances user experiences and streamlines business operations.</p>
+                <div class="social-links">
+                    <a href="https://github.com/mukeshwaran-max
+                    " data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/mukeshwaran.b?igsh=YXVoM3c3cDVhZWQx" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/mukesh-waran-b-491b59251/" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+                    <button onclick="window.location.href='#contact'">Hire me</button>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#about" class="scroll-link animate__animated animate__bounce animate__infinite">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="section-container" data-aos="fade-up">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right">
+                    <img src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="About Image">
+                </div>
+                <div class="about-text" data-aos="fade-left">
+                    <h3>Data Analyst, Software Developer & Web Developer</h3>
+                    <p>With over 2 years of experience in data analysis and web development and 1 year of experience in Software Development, I specialize in transforming complex data into actionable insights and building scalable applications.</p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <i class="fas fa-chevron-right"></i>
+                            <span><strong>Name:</strong> Mukeshwaran B</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-chevron-right"></i>
+                            <span><strong>Degree:</strong> Bachelor's in Electronics and Communication Engineering</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-chevron-right"></i>
+                            <span><strong>Email:</strong> work.mukeshwaran@gmail.com</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-chevron-right"></i>
+                            <span><strong>From:</strong> Chennai, India</span>
+                        </div>
+                    </div>
+                    <p>My approach combines technical expertise with business acumen to deliver solutions that drive growth and efficiency. I'm passionate about continuous learning and staying updated with the latest technologies.</p>
+                    <a href="Mueshwaran.B_resume.pdf" download="Mukeshwaran_Resume.pdf" class="download-btn">
+                        Download CV <i class="fas fa-download"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="section-container">
+            <h2 class="section-title" data-aos="fade-up">My <span>Skills</span></h2>
+            <div class="skills-container">
+                <div class="technical-skills" data-aos="fade-right">
+                    <h3>Technical Skills</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Python</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress python"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>SQL</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress sql"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Tableau</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress tableau"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>PowerBI</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress sql"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>AWS</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress tableau"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>HTML</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress react"></div>
+                        </div>
+                    </div>
+                
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>CSS</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                         <div class="skill-progress tableau"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Rest API's</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress tableau"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Java</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress tableau"></div>
+                        </div>
+                    </div>
+                <div class="professional-skills" data-aos="fade-left">
+                    <h3>Professional Skills</h3>
+                    <div class="professional-skill-item">
+                        <div class="circular-progress" data-percent="95">
+                            <div class="circle-progress">
+                                <svg>
+                                    <circle class="progress-bg" cx="70" cy="70" r="60"></circle>
+                                    <circle class="progress-fill" cx="70" cy="70" r="60"></circle>
+                                </svg>
+                                <div class="progress-text">95%</div>
+                            </div>
+                            <span>Data Analysis</span>
+                        </div>
+                        <div class="circular-progress" data-percent="95">
+                            <div class="circle-progress">
+                                <svg>
+                                    <circle class="progress-bg" cx="70" cy="70" r="60"></circle>
+                                    <circle class="progress-fill" cx="70" cy="70" r="60"></circle>
+                                </svg>
+                                <div class="progress-text">90%</div>
+                            </div>
+                            <span>Business Growth</span>
+                        </div>
+                        <div class="circular-progress" data-percent="85">
+                            <div class="circle-progress">
+                                <svg>
+                                    <circle class="progress-bg" cx="70" cy="70" r="60"></circle>
+                                    <circle class="progress-fill" cx="70" cy="70" r="60"></circle>
+                                </svg>
+                                <div class="progress-text">98%</div>
+                            </div>
+                            <span>Problem Solving</span>
+                        </div>
+                        <div class="circular-progress" data-percent="90">
+                            <div class="circle-progress">
+                                <svg>
+                                    <circle class="progress-bg" cx="70" cy="70" r="60"></circle>
+                                    <circle class="progress-fill" cx="70" cy="70" r="60"></circle>
+                                </svg>
+                                <div class="progress-text">100%</div>
+                            </div>
+                            <span>Communication</span>
+                        </div>
+                        <div class="circular-progress" data-percent="95">
+                            <div class="circle-progress">
+                                <svg>
+                                    <circle class="progress-bg" cx="70" cy="70" r="60"></circle>
+                                    <circle class="progress-fill" cx="70" cy="70" r="60"></circle>
+                                </svg>
+                                <div class="progress-text">98%</div>
+                            </div>
+                            <span>Learning new technologies</span>
+                        </div>
+                        <div class="circular-progress" data-percent="80">
+                            <div class="circle-progress">
+                                <svg>
+                                    <circle class="progress-bg" cx="70" cy="70" r="60"></circle>
+                                    <circle class="progress-fill" cx="70" cy="70" r="60"></circle>
+                                </svg>
+                                <div class="progress-text">100%</div>
+                            </div>
+                            <span>Teamwork</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+<section id="projects" class="projects-section">
+    <div class="section-container">
+        <h2 class="section-title" data-aos="fade-up">My <span>Projects</span></h2>
+        <div class="projects-container">
+            <!-- Project 1 -->
+            <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Interactive Dashboard">
+                    <div class="project-links">
+                        <a href="https://iot-dashboard-demo.netlify.app/" target="_blank"><i class="fas fa-link"></i></a>
+                        <a href="https://github.com/yourusername/iot-dashboard" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Interactive IoT Dashboard</h3>
+                    <p>Real-time dashboard visualizing sensor data with Python backend and React frontend, featuring D3.js visualizations.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>React</span>
+                        <span>D3.js</span>
+                        <span>WebSockets</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="E-commerce Platform">
+                    <div class="project-links">
+                        <a href="https://ecommerce-template.vercel.app/" target="_blank"><i class="fas fa-link"></i></a>
+                        <a href="https://github.com/yourusername/ecommerce-platform" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>E-commerce Platform</h3>
+                    <p>Full-stack e-commerce solution with product management, cart functionality, and Stripe payment integration.</p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                        <span>Stripe API</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1415&q=80" alt="Data Analysis Dashboard">
+                    <div class="project-links">
+                        <a href="https://public.tableau.com/app/profile/tableau.demo/vizzes" target="_blank"><i class="fas fa-link"></i></a>
+                        <a href="https://github.com/yourusername/data-analysis-pipeline" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Sales Analytics Dashboard</h3>
+                    <p>End-to-end data pipeline extracting, transforming, and visualizing sales data with Tableau and Python.</p>
+                    <div class="project-tech">
+                        <span>Tableau</span>
+                        <span>Python</span>
+                        <span>SQL</span>
+                        <span>ETL</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" alt="ML Stock Predictor">
+                    <div class="project-links">
+                        <a href="https://colab.research.google.com/github/yourusername/stock-prediction-ml/blob/main/Stock_Prediction_Model.ipynb" target="_blank"><i class="fas fa-link"></i></a>
+                        <a href="https://github.com/yourusername/stock-prediction-ml" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Stock Price Predictor</h3>
+                    <p>Machine learning model using LSTM networks to predict stock prices with 85% accuracy on test data.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>TensorFlow</span>
+                        <span>Pandas</span>
+                        <span>YFinance API</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1555421689-3f034debb7a6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" alt="Task Manager">
+                    <div class="project-links">
+                        <a href="https://kanban-task-management-demo.vercel.app/" target="_blank"><i class="fas fa-link"></i></a>
+                        <a href="https://github.com/yourusername/task-manager-app" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Productivity Tracker</h3>
+                    <p>Kanban-style task manager with drag-and-drop functionality, user authentication, and progress analytics.</p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Firebase</span>
+                        <span>React DnD</span>
+                        <span>Chart.js</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 6 -->
+            <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1629904853893-c2c8981a1dc5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" alt="Portfolio Website">
+                    <div class="project-links">
+                        <a href="#" class="disabled-link"><i class="fas fa-link"></i></a>
+                        <a href="https://github.com/yourusername/portfolio-website" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Developer Portfolio</h3>
+                    <p>Responsive portfolio website showcasing projects with smooth animations and contact form functionality.</p>
+                    <div class="project-tech">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>GSAP</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Project 4 - DevOps -->
+        <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="project-image">
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" alt="DevOps">
+                <div class="project-links">
+                    <a href="https://www.youtube.com/watch?v=devops-demo" target="_blank"><i class="fas fa-link"></i></a>
+                    <a href="https://github.com/yourusername/ci-cd-pipeline" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="project-info">
+                <h3>Automated CI/CD Pipeline</h3>
+                <p>End-to-end deployment pipeline with automated testing, containerization, and blue-green deployment.</p>
+                <div class="project-tech">
+                    <span>Docker</span>
+                    <span>Kubernetes</span>
+                    <span>GitHub Actions</span>
+                    <span>Terraform</span>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="view-more" data-aos="fade-up">
+            <button onclick="window.open('https://github.com/yourusername?tab=repositories', '_blank')">
+                View More Projects on GitHub
+            </button>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+<section id="contact" class="contact-section">
+    <div class="section-container">
+        <h2 class="section-title" data-aos="fade-up">Contact <span>Me</span></h2>
+        <div class="contact-container">
+            <div class="contact-info" data-aos="fade-right">
+                <h3>Get in Touch</h3>
+                <p>Feel free to reach out for collaborations or just to say hello! I'll respond within 24 hours.</p>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <a href="mailto:work.mukeshwaran@gmail.com" class="contact-link">work.mukeshwaran@gmail.com</a>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h4>Phone</h4>
+                        <a href="tel:+919003352090" class="contact-link">+91 9003352090</a>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Location</h4>
+                        <span>Chennai, India</span>
+                    </div>
+                </div>
+                <div class="contact-social">
+                    <a href="https://github.com/mukeshwaran-max" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/mukesh-waran-b-491b59251/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://twitter.com/yourhandle" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.instagram.com/mukeshwaran.b?igsh=YXVoM3c3cDVhZWQx" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://leetcode.com/u/mukeshwaranb123/" target="_blank" rel="noopener noreferrer" aria-label="LeetCode">
+                        <i class="fas fa-code"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Updated Form with Formspree Integration -->
+            <div class="contact-form" data-aos="fade-left">
+                <form action="https://formspree.io/f/xrbqgkyz" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="_replyto" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="_subject" placeholder="Subject" value="New message from portfolio">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <input type="hidden" name="_next" value="https://yourwebsite.com/thanks.html">
+                    <button type="submit" class="submit-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    // Form submission handling
+    const form = document.getElementById('contactForm');
+    const status = document.getElementById('form-status');
+    
+    async function handleSubmit(event) {
+        event.preventDefault();
+        const submitBtn = form.querySelector('button[type="submit"]');
+        const originalBtnText = submitBtn.innerHTML;
+        
+        submitBtn.innerHTML = 'Sending... <i class="fas fa-spinner fa-spin"></i>';
+        
+        try {
+            const response = await fetch(form.action, {
+                method: 'POST',
+                body: new FormData(form),
+                headers: {
+                    'Accept': 'application/json'
+                }
+            });
+            
+            if (response.ok) {
+                status.innerHTML = 'Thanks for your message! I\'ll get back to you soon.';
+                status.style.color = '#4CAF50';
+                form.reset();
+            } else {
+                throw new Error('Form submission failed');
+            }
+        } catch (error) {
+            status.innerHTML = 'Oops! There was a problem. Please try again or email me directly.';
+            status.style.color = '#F44336';
+        } finally {
+            submitBtn.innerHTML = originalBtnText;
+            setTimeout(() => {
+                status.innerHTML = '';
+            }, 5000);
+        }
+    }
+    
+    form.addEventListener('submit', handleSubmit);
+</script>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Mukeshwaran <span>B</span></h3>
+                    <p>Data Analyst, Software Developer & Web Developer</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> work.mukeshwaran@gmail.com</li>
+                        <li><i class="fas fa-phone"></i> +91 9003352090</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Chennai, India</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Mukeshwaran B. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 100,
+            duration: 1000,
+            easing: 'ease-in-out',
+            once: false
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
